@@ -1,0 +1,30 @@
+body {
+  background: linear-gradient(135deg, #1e293b, #0f172a);
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.app-container {
+  max-width: 500px;
+  margin: 60px auto;
+  background: #1e293b;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+input {
+  border-radius: 10px !important;
+}
+
+button {
+  border-radius: 10px !important;
+}
+
+.task-item {
+  background: #334155;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
