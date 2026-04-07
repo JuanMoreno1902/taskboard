@@ -6,7 +6,7 @@ import { useEffect, useState } from 'react';
 // ==========================
 // CONFIGURACIÓN BASE
 // ==========================
-const API = 'http://localhost:3000/tasks';
+const API = 'https://taskboard-o1iu.onrender.com/tasks'; // URL del backend 
 
 // ==========================
 // COMPONENTE PRINCIPAL
