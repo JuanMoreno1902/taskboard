@@ -61,6 +61,11 @@ app.delete('/tasks/:id', (req, res) => {
   res.json({ message: 'Eliminada' }); // Confirmación
 });
 
+// ====== RUTA RAÍZ ======
+app.get('/', (req, res) => {
+  res.json({ message: 'TaskBoard API corriendo ✅', endpoints: ['/tasks'] })
+})
+
 // ==========================
 // INICIAR SERVIDOR
 // ==========================
